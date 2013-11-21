@@ -1,0 +1,139 @@
+extends layout
+
+block content
+  .slidepanel
+      .container
+        .row
+          .span8
+            .spara
+              p
+                i.icon-envelope-alt.lightblue
+                | something@gmail.com   
+                i.icon-twitter.lightblue
+                | janderbacalso@something.com   
+                i.icon-desktop.lightblue
+                | 490-9974
+          .span4
+            .social
+              a.bblue(href='#')
+                i.icon-facebook
+              a.borange(href='#')
+                i.icon-google-plus
+              a.blightblue(href='#')
+                i.icon-twitter
+              a.bviolet(href='#')
+                i.icon-linkedin
+              a.bred(href='#')
+                i.icon-pinterest
+              a.borange(href='#')
+                i.icon-rss                                
+
+  header
+    .container
+      .row
+        .span3
+          .logo
+            .logo-image
+              a(href='#')
+                i.icon-desktop.blue
+            .logo-text
+              h1
+                a(href='index.html')
+                  | Assets
+                  span.lightblue Management
+              .logo-meta company assets inventory
+            .clearfix
+        .span9
+          .navi.pull-right
+            #ddtopmenubar.mattblackmenu
+              ul
+                li
+                  a.blightblue(href='/')
+                    i.icon-home
+                    | Home
+                li
+                  a.bred(href='#',rel="ddsubmenu2")
+                    i.icon-user
+                    | Users
+                    #img.downarrowpointer(src='../images/arrow-down.png',style='width: 11px; height: 7px;')
+                li
+                  a.bgreen(href='#')
+                    i.icon-home
+                    | Assets
+          .navis
+          .clearfix
+  .clearfix
+  .page-heading.blightblue
+    .container
+      .row
+        .span12
+          .pull-left(style='font-size:30px;')
+            i.icon-user 
+            | Login
+          .pull-right.heading-meta
+  .content
+    .container
+      .register
+        .row
+          .span6
+            h2 Register Today
+            p.big.grey Lorem Ep sum lorie me You by me lorem 
+            | Lorem Ep sum lorie me You by me lorem 
+            | Lorem Ep sum lorie me You by me lorem 
+          .span6
+            .formy.bgreen
+              h3 Login to your Account
+              .form 
+                form.form-horizontal
+                  .control-group
+                    label.control-label(for='email') 
+                      | Email Address
+                    .controls
+                      input#email.input-large(type='email')
+                  .control-group
+                    label.control-label(for='password') 
+                      | Password
+                    .controls
+                      input#password.input-large(type='password')
+                  .control-group
+                    .controls
+                      label.checkbox
+                        input(type='checkbox') 
+                        | Remember Me
+                  .form-actions
+                    button.btn(type='submit') Login
+                    button.btn(type='reset') Reset
+  .foot.blightblue
+    .container
+      .row
+        .span12
+          .twitter-icon.text-center
+            i.icon-user
+          p
+            em "Lorem ep sulom me eti ka ti mati lorei ele so"
+  footer
+    .container
+      .row
+        .widgets
+          .span3
+            .fwidget
+              h4 Contact
+              p Lorem Ep Sum lorei me salom
+              hr
+              i.icon-home 
+              | 2814 Tungkop South Boundary
+              hr
+              i.icon-phone 
+              | 490-9974
+              hr
+              i.icon-envelope-alt 
+              a(mailto:#)
+                | admin@xub.com
+              hr
+          .span3
+          .span3
+        .span12
+          .copy
+            p 
+            | Copyright
+      .clearfix
